@@ -16,7 +16,7 @@ public class AppMain {
     public static void main(String[] args) {
         System.out.println("Starting HTTP server..");
         try {
-            HttpServerFactory.create("http://0.0.0.0:9595/MailSender").start();
+            HttpServerFactory.create("http://0.0.0.0:9595/Predict").start();
         } catch (IOException ex) {
             System.err.println(ex);
         }
